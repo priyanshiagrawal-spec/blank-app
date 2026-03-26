@@ -296,4 +296,3 @@ st.markdown("""
    - Click "Generate Birthday Cards" to create all cards
    - Download the ZIP file containing all generated cards
 """)
-moved file to root
