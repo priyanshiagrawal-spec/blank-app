@@ -177,7 +177,7 @@ template_files = st.file_uploader(
 
 # Font size adjustment - both slider and manual input
 st.markdown("##### Font Size")
-font_size_slider = st.slider("Adjust font size", min_value=10, max_value=150, value=25)
+font_size_slider = st.slider("Adjust font size", min_value=10, max_value=150, value=50)
 font_size_manual = st.number_input("Or enter font size manually", min_value=10, max_value=150, value=font_size_slider)
 font_size = font_size_manual if font_size_manual else font_size_slider
 
